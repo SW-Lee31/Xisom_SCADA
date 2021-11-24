@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using Xisom.Scada.Model;
 using Xisom.Scada.Core;
 using Xisom.Scada.Browser;
-using Xisom.Scada.WinForm;
+
 
 namespace XScada_connCs_Test211123
 {
     static class Program
     {
         public static DocumentContext documentContext = null;
-        public static ID
+        public static IDocument document = null;
         /// <summary>
         /// 해당 애플리케이션의 주 진입점입니다.
         /// </summary>
@@ -23,6 +24,25 @@ namespace XScada_connCs_Test211123
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
+
+            try
+            {
+                ScadaContext.Initalize();
+
+                Program.documentContext = DocumentContext.InitWith(@"C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\test211122.xix");
+                Program.document = Program.documentContext.Document;
+
+                
+            }catch (Exception e)
+            {
+                Console.WriteLine(e.GetStackTrace());
+            }
+
+            MiscUtils.Dispose(Program.documentContext);
+            ScadaContext.Uinitalize();
         }
+
     }
+
+
 }

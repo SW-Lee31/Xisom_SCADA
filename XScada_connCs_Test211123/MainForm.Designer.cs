@@ -29,13 +29,31 @@ namespace XScada_connCs_Test211123
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.browser = new Xisom.Scada.Browser.ScadaBrowser();
+            this.SuspendLayout();
+            // 
+            // browser
+            // 
+            this.browser.Location = new System.Drawing.Point(0, 42);
+            this.browser.Name = "browser";
+            this.browser.Size = new System.Drawing.Size(801, 603);
+            this.browser.TabIndex = 0;
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 643);
+            this.Controls.Add(this.browser);
+            this.Name = "MainForm";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Xisom.Scada.Browser.ScadaBrowser browser;
     }
 }
 
