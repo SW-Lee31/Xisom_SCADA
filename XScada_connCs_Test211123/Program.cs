@@ -23,7 +23,7 @@ namespace XScada_connCs_Test211123
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            
 
             try
             {
@@ -31,9 +31,10 @@ namespace XScada_connCs_Test211123
 
                 Program.documentContext = DocumentContext.InitWith(@"C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\test211122.xix");
                 Program.document = Program.documentContext.Document;
+                Application.Run(new MainForm());
 
-                
-            }catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine(e.GetStackTrace());
             }

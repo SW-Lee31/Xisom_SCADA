@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataServer version="1">
+  <version>1.1.7.6105</version>
+  <revision>0</revision>
+  <lastModified>2021-11-25T07:17:19.314Z</lastModified>
+  <devices />
+  <tags />
+  <loggers />
+  <alarms />
+  <alarmLoggers />
+</dataServer>

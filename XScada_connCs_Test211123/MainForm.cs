@@ -83,7 +83,11 @@ namespace XScada_connCs_Test211123
             }
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form_SCADA2 SCADA_page2 = new Form_SCADA2();
+            SCADA_page2.Show();
+        }
     }
-
-
 }
