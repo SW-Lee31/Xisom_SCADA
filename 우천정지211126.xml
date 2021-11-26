@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <tasks>
+    <task>
+      <name>우천_정지</name>
+      <description></description>
+      <status>Running</status>
+      <triggers>
+        <trigger>
+          <type>Oneshot</type>
+          <startdate>2021-11-27T09:52:19</startdate>
+          <enddate>0001-01-01T00:00:00</enddate>
+          <cycleday>0</cycleday>
+          <cyclehour>0</cyclehour>
+          <cyclemin>0</cyclemin>
+          <cyclesec>1</cyclesec>
+          <repeatcount>0</repeatcount>
+          <position>0</position>
+        </trigger>
+      </triggers>
+      <actions>
+        <action>
+          <tagname>digital_1</tagname>
+          <tagvalue>False</tagvalue>
+        </action>
+      </actions>
+      <settings>
+        <checkbox>
+          <deniedsaturday>false</deniedsaturday>
+          <deniedsunday>false</deniedsunday>
+          <deniedholiday>false</deniedholiday>
+          <priority>DenyAllow</priority>
+        </checkbox>
+      </settings>
+    </task>
+  </tasks>
+</root>

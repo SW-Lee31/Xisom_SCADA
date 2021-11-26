@@ -15,6 +15,7 @@ namespace XScada_connCs_Test211123
 {
     public partial class MainForm : Form
     {
+
         public MainForm()
         {
             InitializeComponent();
@@ -31,18 +32,7 @@ namespace XScada_connCs_Test211123
 
                 foreach (var item in Program.document.Tags)
                 {
-                    if (item.IsGroup())
-                    {
-                        var tags = Program.document.Tags.GetByFullName(item.Name);
-                        foreach (var tag in tags.Children)
-                        {
-                            tag.LiveChanged += tag_LiveChanged;
-                        }
-                    }
-                    else
-                    {
-                        item.LiveChanged += tag_LiveChanged;
-                    }
+                    item.LiveChanged += tag_LiveChanged;
                 }
             }
             catch (Exception exp)
