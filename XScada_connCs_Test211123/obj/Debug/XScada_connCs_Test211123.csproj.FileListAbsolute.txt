@@ -65,3 +65,6 @@ C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\obj\Debug\XScada_connCs_Tes
 C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\obj\Debug\XScada_connCs_Test211123.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\obj\Debug\XScada_connCs_Test211123.Form_SCADA2.resources
 C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\obj\Debug\XScada_connCs_Test211123.SCADA_page2.resources
+C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\obj\Debug\XScada_connCs_Test211123.UI.Status_Manager.ChannelStatusForm.resources
+C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\obj\Debug\XScada_connCs_Test211123.UI.Status_Manager.TagStatusForm.resources
+C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\obj\Debug\XScada_connCs_Test211123.UI.SCADA_page3.resources

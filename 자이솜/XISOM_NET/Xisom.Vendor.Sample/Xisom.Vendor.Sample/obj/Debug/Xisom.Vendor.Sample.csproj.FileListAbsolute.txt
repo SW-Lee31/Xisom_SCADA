@@ -1,0 +1,15 @@
+Z:\0.3 XISOM.NET Library\X-SCADA\Xisom.Vendor.Sample\bin\Debug\Xisom.Vendor.Sample.exe.config
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\bin\Debug\xisom.xix
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\bin\Debug\Xisom.Vendor.Sample.exe.config
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\bin\Debug\Xisom.Vendor.Sample.exe
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\bin\Debug\Xisom.Vendor.Sample.pdb
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.MainForm.resources
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.ChannelStatusForm.resources
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.TagStatusForm.resources
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.Properties.Resources.resources
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.csproj.GenerateResource.cache
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.csproj.CopyComplete
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.exe
+C:\Users\User\Desktop\SCADA\자이솜\XISOM_NET\Xisom.Vendor.Sample\Xisom.Vendor.Sample\obj\Debug\Xisom.Vendor.Sample.pdb

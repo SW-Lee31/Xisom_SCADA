@@ -1,0 +1,25 @@
+                foreach (var item in Program.document.Tags)
+                {
+                    if (item.IsGroup())
+                    {
+                        if (item.Name.ToUpper().StartsWith("_SYSTEM")) continue;
+                        if (item.Name.ToUpper().StartsWith("_DEVICES")) continue;
+                        if (item.Name.ToUpper().StartsWith("_ALARMS")) continue;
+                        if (item.Name.ToUpper().StartsWith("CMD")) continue;
+
+                        var tags = Program.document.Tags.GetByFullName(item.Name);
+                        foreach (var tag in tags.Children)
+                        {
+                     if (tag.IsGroup()) 
+                     {
+                        continue;
+                     }
+                     
+                            tag.LiveChanged += tag_LiveChanged;
+                        }
+                    }
+                    else
+                    {
+                        item.LiveChanged += tag_LiveChanged;
+                    }
+                }

@@ -29,7 +29,7 @@ namespace XScada_connCs_Test211123
             {
                 ScadaContext.Initalize();
 
-                Program.documentContext = DocumentContext.InitWith(@"C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\test211122.xix");
+                Program.documentContext = DocumentContext.InitWith(@"C:\Users\User\Desktop\SCADA\XScada_connCs_Test211123\test211126.xix");
                 Program.document = Program.documentContext.Document;
                 Application.Run(new MainForm());
 
